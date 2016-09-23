@@ -34,6 +34,7 @@ public class SearchRestaurants extends HttpServlet {
  			response.setStatus(403);
  			return;
  		}
+		
 
    	              JSONArray array = new JSONArray();
 		DBConnection connection = new MySQLDBConnection();
